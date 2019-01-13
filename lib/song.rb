@@ -21,7 +21,7 @@ class Song
   end
 
   def self.create_by_name
-    
+
   end
 
   def self.find_by_name
@@ -46,8 +46,6 @@ class Song
 
   def self.destroys_all
     @@all.clear
-  end
-
   end
 
 end
