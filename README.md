@@ -16,12 +16,6 @@ class Song
   @@all = []
 
   def create
-    self.new
-  end
-
-
-
-  def self.create
     song = self.new
     @@all << song
     song
