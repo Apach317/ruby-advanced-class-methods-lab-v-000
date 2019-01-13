@@ -37,7 +37,7 @@ class Song
 
   end
 
-  def self.alphabetical
+  def self.alphabetical(name)
     @@all.sort
   end
 
@@ -45,7 +45,7 @@ class Song
 
   end
 
-  def self.create_from_filename
+  def self.create_from_filename(name, artist_name)
 
   end
 
