@@ -33,7 +33,7 @@ class Song
   end
 
   def self.alphabetical
-
+    @@all.sort
   end
 
   def self.new_from_filename
@@ -41,7 +41,7 @@ class Song
   end
 
   def self.create_from_filename
-
+    
   end
 
   def self.destroy_all
